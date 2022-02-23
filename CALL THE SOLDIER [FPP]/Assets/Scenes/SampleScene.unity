@@ -1080,6 +1080,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movePositionTransform: {fileID: 1611891116}
+  cam: {fileID: 963194227}
 --- !u!195 &697309609
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1117,7 +1118,7 @@ MonoBehaviour:
   PickupMask:
     serializedVersion: 2
     m_Bits: 8
-  PlayerCamera: {fileID: 0}
+  PlayerCamera: {fileID: 963194227}
   PickupTarget: {fileID: 879036868}
   PickupRange: 10
 --- !u!1 &705507993
