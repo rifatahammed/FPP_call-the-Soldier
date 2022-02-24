@@ -21,12 +21,9 @@ public class PickupWhenCollide : MonoBehaviour
 
     private void OnCollisionEnter(Collision col)
     {
-        if (col.collider.gameObject.layer == LayerMask.NameToLayer("Pickup"))
+        if (col.collider.gameObject.layer == LayerMask.NameToLayer("2ndPlayer"))
         {
             Debug.Log("Touched a Box");
-           
-               
-            
             transform.parent = col.transform;
         }
     }
